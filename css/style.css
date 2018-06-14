@@ -1,0 +1,126 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+.header {
+  background: #333;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar li:first-child {
+  padding-left: 0;
+}
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+}
+.navbar li:hover a {
+  color: #fff;
+}
+.navbar li a {
+  text-decoration: none;
+  color: #c1c1c1;
+  font-size: 14px;
+  padding: 20px 0;
+}
+.navbar .brand {
+  font-size: 18px;
+}
+.btn {
+  background: #569CF8;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.btn-default {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.content-header {
+  margin-top: 50px;
+  background: #eee;
+  padding: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.content-header p {
+  line-height: 1.7em;
+  font-size: 15px;
+}
+.heading {
+  font-weight: 300;
+  font-size: 46px;
+  margin: 0
+}
+.sub-heading-text {
+  color: #999;
+}
+.content-body {
+  padding: 10px 0;
+}
+.content-body > h3{
+  font-weight: 300;
+}
+.row {
+  margin: 0 -15px;
+  display: inline-flex;
+}
+.col-md-3 {
+  width: 25%;
+  padding: 0 15px;
+}
+.card {
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.card .card-header img{
+  max-width: 100%;
+}
+.card .card-body {
+  padding: 15px 20px;
+  text-align: center;
+}
+.card .card-body h3 {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+}
+.card .card-body a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #73CAF6;
+}
+.card .card-body p {
+  font-size: 12px;
+  line-height: 1.7em;
+  margin-top: 10px;
+}
+.footer p{
+  font-size: 14px;
+  padding: 30px 0;
+}
