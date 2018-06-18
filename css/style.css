@@ -180,3 +180,9 @@ hr {
     max-width: 100%;
   }
 }
+
+@media (max-width: 1300px) {
+  .card .card-body {
+    padding: 15px 10px;
+  }
+}
