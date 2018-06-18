@@ -172,7 +172,7 @@ hr {
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 950px) {
   .row {
     display: block;
   }
